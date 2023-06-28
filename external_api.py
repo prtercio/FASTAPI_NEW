@@ -3,18 +3,18 @@ import odoolib
 #url = "http://localhost:8069"
 #db = 'db_prueba'
 #username = 'prtercui@gmail.com'
-#password = 'Tcad070819'
+#password = ''
 
 """ url = "http://10.20.30.100:8206”
 db = ‘ntec’
 username = 'soporte@ntec.com.mx'
-password = '!Coron321!' """
+password = '' """
 
 connection = odoolib.get_connection(
     hostname="10.20.30.100",
     database="ntec",
     login="soporte@ntec.com.mx",
-    password="!Coron321!",
+    password="",
     port=8206,
     protocol="jsonrpc"
 ) 
@@ -22,7 +22,7 @@ connection = odoolib.get_connection(
     hostname="localhost",
     database="db_prueba",
     login="prtercui@gmail.com",
-    password="Tcad070819",
+    password="",
     port=8069,
     protocol="jsonrpc"
 ) """
