@@ -20,7 +20,7 @@ from fastapi.middleware.cors import CORSMiddleware
 url = "http://localhost:8069"
 db = 'db_prueba'
 username = 'prtercui@gmail.com'
-password = 'Tcad070819'
+password = ''
 
 common = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(url))
 print(common.version())
