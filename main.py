@@ -17,11 +17,11 @@ from pydantic import BaseModel
 # url = "http://10.20.30.100:8031"
 # db = 'V-Lumber'
 # username = 'systems.admin@v-lumber.com'
-# password = 'Fenix#858'
+# password = ''
 url = "http://localhost:8069"
 db = 'db_prueba'
 username = 'prtercui@gmail.com'
-password = 'Tcad070819'
+password = ''
 
 common = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(url))
 print(common.version())
